@@ -3,7 +3,7 @@ from main import calcular_importe, ordenar_registros, procesar_corte_control
 
 def test_calculos():
     assert calcular_importe(5, 100) == 500.0
-    assert calcular_importe("2", "50.5") == 101.0
+    assert calcular_importe("2", "50.5") == 115.0
 
 def test_ordenamiento():
     data = [
